@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container h-100">
+    <div class="row my-5 d-none canli-yardim-row">
+      <div class="col-12">
+        <nav class="navbar navbar-light bg-success w-100 canli-yardim">
+          <span class="navbar-brand text-white" href="#!"><i class="fas fa-comments text-white mr-4 ml-2"></i> Canlı
+            Yardım</span>
+            <i class="far fa-trash-alt text-white trash d-none mr-1"> Sil</i> <i class="fas fa-times close"></i>
+        </nav>
+        <ul class="list-group w-100 bg-dark">
+            <li class="list-group-item bg-transparent text-white my-1"><img src="images/operator.jpg" class="mr-3"
+                alt="">Sizə necə kömək edə bilərəm ?</li>
+          </ul>
+        <ul class="list-group w-100 bg-dark message-box">
+          <!-- <li class="list-group-item text-right bg-transparent text-white my-1">Salam Operaor<img src="images/user.jpg"
+              class="ml-3" alt=""></li>
+           <li class="list-group-item bg-transparent text-white my-1"><img src="images/operator.jpg" class="mr-3"
+              alt="">Salam User</li> -->
+        </ul>
+      </div>
+      <div class="col-12 mt-5">
+        <div class="input-group input bg-dark py-1">
+          <input type="text" class="form-control bg-transparent text-muted" placeholder="Mesajınızı bura yazın..." aria-label=""
+            aria-describedby="basic-addon1">
+          <div class="input-group-append">
+            <i class="fas fa-paper-plane send text-success border border-success rounded-circle mr-5 mt-1 p-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mt-5 toggle-row position-fixed">
+      <div class="col">
+        <nav class="navbar navbar-light bg-success canli-yardim-toggle">
+          <span class="navbar-brand text-white" href="#!"><i class="fas fa-comments text-white mr-4 ml-2"></i> Canlı
+            Yardım</span>
+            <i class="fas fa-arrows-alt-v fa-lg text-white mr-1 arrow-rotate"></i>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
